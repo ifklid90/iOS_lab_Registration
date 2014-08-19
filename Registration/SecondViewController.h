@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondViewController.h
 //  Registration
 //
 //  Created by User on 19.08.14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-@property NSMutableArray *names;
-@property NSMutableArray *tels;
+@interface SecondViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end

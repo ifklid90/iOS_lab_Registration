@@ -21,6 +21,7 @@
 		CEE68BE419A355E300F675BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE68BC619A355E300F675BA /* UIKit.framework */; };
 		CEE68BEC19A355E300F675BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEE68BEA19A355E300F675BA /* InfoPlist.strings */; };
 		CEE68BEE19A355E300F675BA /* RegistrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68BED19A355E300F675BA /* RegistrationTests.m */; };
+		CEE68BFC19A35DEC00F675BA /* RegistratedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68BFB19A35DEC00F675BA /* RegistratedTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CEE68BE919A355E300F675BA /* RegistrationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RegistrationTests-Info.plist"; sourceTree = "<group>"; };
 		CEE68BEB19A355E300F675BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEE68BED19A355E300F675BA /* RegistrationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistrationTests.m; sourceTree = "<group>"; };
+		CEE68BFA19A35DEB00F675BA /* RegistratedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistratedTableViewController.h; sourceTree = "<group>"; };
+		CEE68BFB19A35DEC00F675BA /* RegistratedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistratedTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				CEE68BD419A355E300F675BA /* Main.storyboard */,
 				CEE68BD719A355E300F675BA /* ViewController.h */,
 				CEE68BD819A355E300F675BA /* ViewController.m */,
+				CEE68BFA19A35DEB00F675BA /* RegistratedTableViewController.h */,
+				CEE68BFB19A35DEC00F675BA /* RegistratedTableViewController.m */,
 				CEE68BDA19A355E300F675BA /* Images.xcassets */,
 				CEE68BC919A355E300F675BA /* Supporting Files */,
 			);
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE68BFC19A35DEC00F675BA /* RegistratedTableViewController.m in Sources */,
 				CEE68BD919A355E300F675BA /* ViewController.m in Sources */,
 				CEE68BD319A355E300F675BA /* AppDelegate.m in Sources */,
 				CEE68BCF19A355E300F675BA /* main.m in Sources */,
